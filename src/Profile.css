@@ -1,0 +1,77 @@
+
+.container{
+    display: flex;
+
+}
+
+  .heading{
+      font-weight: bold;
+      font-size: 30px;
+  }  
+
+.intro{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    width: 800px;
+    margin-left: 150px;
+}
+.navbar{
+    top: 0;
+    float:left;
+    background-color: rgb(211, 201, 201);
+}
+.list li{
+    list-style: none;
+    padding: 10px;
+}
+.list li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.list li a:hover{
+    background-color: white;
+}
+ .resume{
+    width: 600px;
+     display: flex;
+     justify-content: space-between;
+     margin-left: 80px;
+    
+ }
+ .intro h2{
+   margin-left: 250px;
+ }
+ .resume i{
+     float: right;
+     cursor: pointer;
+ }
+ .inputs input{
+  float:left;
+  margin: 0px 50px;
+ }
+ .inputs i{
+     justify-content: space-between;
+     margin: 10px;
+     cursor: pointer;
+ }
+ .exp-sec{
+     display: flex;
+     justify-content: space-between;
+ }
+ .exp-sec h4 {
+     float:left;
+
+ }
+ .exp-sec i{
+     cursor: pointer;
+ }
+ .time-sec{
+    
+     display: flex;
+     justify-content: space-between;
+ }
+ .time-sec i{
+     cursor: pointer;
+ }
